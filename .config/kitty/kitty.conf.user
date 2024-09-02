@@ -1,0 +1,17 @@
+# Set the font and size
+font_family      Fira Code
+font_size        12.0
+
+# Set transparency
+background_opacity 0.8
+
+# Set the color scheme
+background       #000000
+foreground       #D8DEE9
+cursor           #BF616A
+
+# Enable ligatures
+enable_ligatures yes
+
+
+
