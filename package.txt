@@ -20,3 +20,6 @@ polybar
 stow
 tree
 yay
+zsh
+zoxide
+neovim
