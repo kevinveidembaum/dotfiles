@@ -69,6 +69,7 @@ alias ls='ls --color'
 alias v='nvim'
 alias c='clear'
 alias e='exit'
+alias conectar_db="sshpass -f ~/.ssh/mypass.txt ssh -L 3306:localhost:3306 root@216.238.113.222"
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -77,3 +78,5 @@ eval "$(zoxide init --cmd cd zsh)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="/home/nikolai/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/nikolai/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
